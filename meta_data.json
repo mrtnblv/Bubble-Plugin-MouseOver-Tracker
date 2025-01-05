@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "productivity",
+        "2": "data (things)",
+        "3": "image",
+        "4": "containers"
+    },
+    "data_tracked": false,
+    "description": "MouseHoverTracker provides a more efficient way to monitor and respond to mouse hover events over specific elements on your web page compared to the native \"When an element is hovered\" trigger. This plugin offers precise control and improved performance by leveraging direct DOM event handling.\n\n- Efficient Hover Detection: \nProvides a more responsive and resource-efficient solution than the native hover trigger.\n\n- Custom Event Triggers:\nDetects when the mouse enters or leaves a specified element with custom events \"mouse_entered\" and \"mouse_left\".\n\n- Dynamic State Updates:\nUpdates the hovered state to reflect the current hover status in real-time.\n\n- Automatic DOM Monitoring:\nUses MutationObserver to handle dynamic changes to the DOM, ensuring reliable operation even if the target element is added later.",
+    "image": "//meta-q.cdn.bubble.io/f1722194611108x638008995220757800/SCR-20240728-snno.png",
+    "license": "open_source",
+    "name": "MouseOver Tracker",
+    "plugin_instructions": "Simply specify the target element's ID and configure event handlers to respond to hover interactions in your Bubble app."
+}

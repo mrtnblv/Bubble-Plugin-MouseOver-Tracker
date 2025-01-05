@@ -1,0 +1,39 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "MouseOverTracker",
+    "events": {
+        "AAE": {
+            "caption": "is hovered",
+            "name": "is_hovered"
+        },
+        "AAF": {
+            "caption": "stops being hovered",
+            "name": "stops_being_hovered"
+        }
+    },
+    "fields": {
+        "AAD": {
+            "caption": "Element ID",
+            "editor": "DynamicValue",
+            "name": "id",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "icon": "ion-mouse",
+    "states": {
+        "AAG": {
+            "caption": "hovered",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "hovered",
+            "value": "boolean"
+        }
+    }
+}
